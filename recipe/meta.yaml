@@ -22,19 +22,21 @@ requirements:
   run:
     - cython
     - hdbscan
+    - imageio >=2.5.0,!=2.11.0,!=2.22.1
     - jinja2 >=2.10,<3.1
     - leidenalg
     - napari
     - napari-clusters-plotter
     - napari-skimage-regionprops
-    - numba >=0.55.2
-    - numpy <1.22
+    - numba
+    - numpy
     - ocl-icd-system  # [linux]
     - ocl_icd_wrapper_apple  # [osx]
     - pandas
     - pyclesperanto-prototype >=0.8.0
     - pymeshfix
     - pyopencl
+    - pyqt >=5.12.3,!=5.15.0
     - pytables
     - python
     - python-igraph
