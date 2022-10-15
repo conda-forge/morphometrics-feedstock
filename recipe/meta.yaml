@@ -11,7 +11,7 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   skip: true  # [py==37]
 
 requirements:
@@ -27,14 +27,15 @@ requirements:
     - napari
     - napari-clusters-plotter
     - napari-skimage-regionprops
-    - numba >=0.55.2
-    - numpy <1.22
+    - numba
+    - numpy
     - ocl-icd-system  # [linux]
     - ocl_icd_wrapper_apple  # [osx]
     - pandas
     - pyclesperanto-prototype >=0.8.0
     - pymeshfix
     - pyopencl
+    - pyqt >=5.12.3,!=5.15.0
     - pytables
     - python
     - python-igraph
