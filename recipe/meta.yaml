@@ -1,5 +1,5 @@
 {% set name = "morphometrics" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/morphometrics-{{ version }}.tar.gz
-  sha256: bec086a9c853da15350dba5b72a0bf00f27257878518c9aea8c9b7a6499914ca
+  sha256: d4b803c3928806e0747a2ad4b64bc25cc65a0a5a096bfad3b947527d3d4896c8
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   skip: true  # [py==37]
 
 requirements:
