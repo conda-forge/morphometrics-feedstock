@@ -61,10 +61,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/morphometrics/morphometrics
+  home: https://pypi.org/project/morphometrics/
   summary: A plugin for quantifying shape and neighborhoods from images.
   license: BSD-3-Clause
   license_file: LICENSE
+  dev_url: https://github.com/morphometrics/morphometrics
 
 extra:
   recipe-maintainers:
